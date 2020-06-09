@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages{
         stage("Pull latest images"){
-            steps:{
+            steps{
                 sh "docker pull sumit2506/selemiun-docker"
 
             }
