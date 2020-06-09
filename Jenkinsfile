@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Pull latest images"){
             steps{
-                sh "docker pull sumit2506/selemiun-docker"
+                sh "docker pull sumit2506/selenium-docker"
 
             }
         }
